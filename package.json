@@ -1,4 +1,5 @@
 {
+  "homepage": "https://hazemahmedsaad.github.io/koto-Books",
   "name": "book-app",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +18,6 @@
     "react-scripts": "5.0.1",
     "redux": "^4.2.1",
     "web-vitals": "^2.1.4",
-    "homepage": "https://hazemahmedsaad.github.io/kotobooks"
   },
   "scripts": {
     "start": "react-scripts start",
