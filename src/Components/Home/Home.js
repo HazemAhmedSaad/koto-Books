@@ -1,7 +1,6 @@
 import Card from "react-bootstrap/Card";
 import React, { useState } from "react";
 import photo from "../Images/home.jpg";
-import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import Form from "react-bootstrap/Form";
 import "./Home.css";
