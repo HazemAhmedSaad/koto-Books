@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/koto-Books/static/css/main.77cd100e.css",
+    "main.js": "/koto-Books/static/js/main.a91cf6ca.js",
+    "static/media/home.jpg": "/koto-Books/static/media/home.6f20d66b38a4f09b1ec2.jpg",
+    "static/media/user.png": "/koto-Books/static/media/user.0a4ae0bf5495eda6ef9a.png",
+    "index.html": "/koto-Books/index.html",
+    "main.77cd100e.css.map": "/koto-Books/static/css/main.77cd100e.css.map",
+    "main.a91cf6ca.js.map": "/koto-Books/static/js/main.a91cf6ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77cd100e.css",
+    "static/js/main.a91cf6ca.js"
+  ]
+}
