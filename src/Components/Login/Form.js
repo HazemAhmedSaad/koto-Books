@@ -50,23 +50,14 @@ function BasicExample() {
   return (
     <div className="app-style">
       <div
-        className="border mx-auto"
+        className="border mx-auto login-card"
         style={{
           backgroundColor: "white",
-          width: "450px",
-          height: "400px",
           position: "relative",
-          marginTop: "100px",
         }}
       >
         <Form
-          className="w-75 mx-auto "
-          style={{
-            position: "absolute",
-            top: "50%",
-            left: "50%",
-            transform: "translate(-50%,-50%)",
-          }}
+          className="w-75 mx-auto py-4"
         >
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Email</Form.Label>

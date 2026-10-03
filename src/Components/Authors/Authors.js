@@ -26,7 +26,6 @@ function BasicExample() {
       {allBooks.map((book) => (
         <Card
           className="card-author col-lg-3 col-md-4 col-sm-6 mx-auto"
-          style={{ width: "18rem" }}
         >
           <Link className="link-dicor" to={`/search/${book.authors}`}>
             <Card.Img className="athour-photo" variant="top" src={User} />

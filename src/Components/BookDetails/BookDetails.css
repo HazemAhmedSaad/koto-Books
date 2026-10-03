@@ -2,6 +2,12 @@
     margin-top: 10em !important;
     min-height: 525px
 }
+
+@media (max-width: 767px) {
+    .app-style {
+        margin-top: 6em !important;
+    }
+}
 .photo-details {
     max-width: 100%;
     border: 1px solid #f65656;
@@ -64,6 +70,12 @@
 
 .description {
     padding: 0 40px;
+}
+
+@media (max-width: 767px) {
+    .description {
+        padding: 0 15px;
+    }
 }
 
 @media (max-width:768px) {

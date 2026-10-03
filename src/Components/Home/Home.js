@@ -20,15 +20,16 @@ function ImgOverlayExample() {
           />
           <Card.ImgOverlay>
             <div
-              className="mx-5 ps-2"
+              className="hero-text px-3 px-md-5"
               style={{
                 position: "absolute",
                 top: "50%",
                 transform: "translateY(-50%)",
+                width: "100%",
               }}
             >
               <Card.Title
-                className="display-1"
+                className="display-4 display-md-1"
                 style={{
                   fontWeight: "bold",
                 }}
@@ -36,10 +37,10 @@ function ImgOverlayExample() {
                 KotoBooks
               </Card.Title>
               <hr />
-              <Card.Text className="display-6 mb-4">
+              <Card.Text className="fs-4 fs-md-2 mb-4">
                 We have a lot of textbooks
               </Card.Text>
-              <Form className="d-flex  mt-5">
+              <Form className="d-flex mt-3 mt-md-5">
                 <Form.Control
                   type="search"
                   placeholder="Search"
