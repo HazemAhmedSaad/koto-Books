@@ -123,7 +123,7 @@ function BasicExample() {
             </li>
             <li className="page-item" style={{ width: "150px" }}>
               <button
-                className="btn  text-white btn-bord"
+                className="btn text-white btn-bord"
                 style={{ width: "150px", backgroundColor: "#222" }}
                 onClick={showNext}
                 disabled={page === numPage ? true : false}

@@ -25,8 +25,7 @@ function BasicExample() {
         setErrorData({ ...errorData, emailError: "Please enter valid email" });
       } else if (event.target.value === "") {
         setFlage1(0);
-
-        setErrorData({ ...errorData, emailError: "Email is requared" });
+        setErrorData({ ...errorData, emailError: "Email is required" });
       } else {
         setFlage1(1);
         setErrorData({ ...errorData, emailError: "" });
@@ -41,14 +40,13 @@ function BasicExample() {
         });
       } else if (event.target.value === "") {
         setFlage2(0);
-        setErrorData({ ...errorData, passError: "Password is requared" });
+        setErrorData({ ...errorData, passError: "Password is required" });
       } else {
         setFlage2(1);
         setErrorData({ ...errorData, passError: "" });
       }
     }
   };
-  useEffect(()=>{},[flage1,flage2])
   return (
     <div className="app-style">
       <div
